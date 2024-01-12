@@ -50,7 +50,7 @@ export default function Comments() {
               {
                 records?.map((item, index) => {
                   return <tr key={index}>
-                    <td>{index + 1}</td>
+                    <td>{item.id}</td>
                     <td>{item.body}</td>
                     <td>{item.email}</td>
                     <td>{item.nama}</td>

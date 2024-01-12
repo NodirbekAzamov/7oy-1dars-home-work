@@ -41,7 +41,7 @@ export default function Photos() {
             return <div className="col-4">
               <div className='card my-3' key={index}>
                 <div className="card-header">
-                  <h3>{index + 1}</h3>
+                  <h3>{item.id}</h3>
                 </div>
                 <div className="card-body">
                   <h3>{item.albumID}</h3>

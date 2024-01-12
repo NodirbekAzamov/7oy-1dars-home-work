@@ -48,7 +48,7 @@ export default function Todo() {
               {
                 records?.map((item, index) => {
                   return <tr key={index}>
-                    <td>{index + 1}</td>
+                    <td>{item.id}</td>
                     <td>{item.userId}</td>
                     <td>{item.title}</td>
                     <td>{item.completed}</td>

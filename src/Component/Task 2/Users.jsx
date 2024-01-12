@@ -73,46 +73,11 @@ export default function Users() {
                             }
                         </tbody>
                     </table>
-
-                    {/* <nav>
-                        <ul className='pagination'>
-                            <li className='page_item'>
-                                <a href="#" onClick={prePage} className='page_link' >Prev</a>
-                            </li>
-                            {
-                                numbers?.map((item, index) => {
-                                    <li className={`page_item ${count === item ? "active" : ""}`} key={index}>
-                                        <a href="#" onClick={() => changePage(item)} className='page-link'>{item}</a>
-                                    </li>
-                                })
-                            }
-                            <li className='page_item'>
-                                <a href="#" onClick={nextPage} className='page_link' >Next</a>
-                            </li>
-                        </ul>
-                    </nav> */}
-                    
                 </div>
             </div>
         </div>
     )
 
-
-    // function prePage(){
-    //     if (count != firstIndex) {
-    //         setCount(count -1)
-    //     }
-    // }
-
-    // function changePage(id) {
-    //     setCount(id)
-    // }
-
-    // function nextPage() {
-    //     if (count != lastIndex)  {
-    //         setCount(count + 1)
-    //     }
-    // }
 
     
 }
